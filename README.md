@@ -8,7 +8,7 @@ Example:
 
 If you have in your stylesheet something like:
 
-<pre>
+````css
 .change_opacity
 {
   opacity:0
@@ -19,14 +19,14 @@ If you have in your stylesheet something like:
   margin-top:"10px";
   margin-left:"10px";
 }
-</pre>
+````
 
 You could get the class properties using the "tsung" function.
 
-<pre>
+````javascript
 tsung("change_opacity"); //return {"opacity":"0"}
 tsung(".header .margin"); //return {margin-top:"10px", margin-left:"10px"}
-</pre>
+````
 
 Use case:
 --------
@@ -36,7 +36,7 @@ __This way, you can separate all the settings of the animations in the CSS file,
 
 You can set the states of the animations in the CSS:
 
-<pre>
+````css
 .item .before
 {
    top:10px;
@@ -50,21 +50,23 @@ You can set the states of the animations in the CSS:
   left:"0";
   opacity:1;
 }
-</pre>
+````
 
 And in your JS code, you can get these properties and pass them as parameters to the animations libraries.
 
-(using jQuery animate)
-<pre>
+> using jQuery animate
+
+````javascript
 $(".item").css( tsung(".item .before")) //set the properties before animating
 $(".item").animate( tsung(".item .after"), 500 ) //animate getting the properties of the class 'after'
-</pre>
+````
 
-(using TweenLite)
-<pre>
+> using TweenLite
+
+````javascript
 $(".item").css( tsung(".item .before")) //set the properties before animating
 TweenLite.to($(".item"), 0.5,{css:tsung(".item .after")}) //animate getting the properties of the class 'after'
-</pre>
+````
 
 Tested in the following browsers
 ---------------
