@@ -3,7 +3,7 @@
 {
 	var parseStyle = function(style)
 	{
-		var regexp = /([a-z0-9]*): ((?:-)?[a-z0-9]*)/g
+		var regexp = /((?:[a-z0-9]*-)*[a-z0-9]*): ((?:-)?[a-z0-9]*)/g
 		var st = style.cssText || style.style.cssText;
 		st = st.toLowerCase()
 		var result = st.match(regexp);
@@ -12,9 +12,9 @@
 
 		for(var i = 0; i < result.length; i++)
 		{
-		  var newRegexp = /([a-z0-9]*): ((?:-)?[a-z0-9]*)/
+		  var newRegexp = /((?:[a-z0-9]*-)*[a-z0-9]*): ((?:-)?[a-z0-9]*)/
 		  var newResult = result[i].match(newRegexp);
-		  obj[newResult[1]] = newResult[2].toString();
+		  obj[newResult[1].toString()] = newResult[2].toString();
 		}
 
 		return obj;
