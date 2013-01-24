@@ -62,9 +62,8 @@ $(".item").animate( tsung(".item .after"), 500 ) //animate getting the propertie
 
 (using TweenLite)
 <pre>
-TweenLite.to($(".item")
 $(".item").css( tsung(".item .after")) //set the properties before animating
-TweenLite.to($(".item"),{css:tsung(".item .after")}) //animate getting the properties of the class 'after'
+TweenLite.to($(".item"), 0.5,{css:tsung(".item .after")}) //animate getting the properties of the class 'after'
 </pre>
 
 Tested in the following browsers
