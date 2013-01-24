@@ -22,7 +22,7 @@ If you have in your stylesheet something like:
 
 You couldn get the class properties using the "tsung" function.
 
-<pre.
+<pre>
 tsung("change_opacity"); //return {"opacity":"0"}
 tsung(".header .margin"); //return {"margin-top":"10px", "margin-left":"10px"}
 </pre>
