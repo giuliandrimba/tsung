@@ -68,7 +68,8 @@ TweenLite.to($(".item"), 0.5,{css:tsung(".item .after")}) //animate getting the 
 
 Tested in the following browsers
 ---------------
-IE7+
-Chrome 24+
-Firefox 14+
-Firefox 5+
+
+* IE7+
+* Firefox 14+
+* Safari 5+
+* Chrome 24+
