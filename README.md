@@ -5,8 +5,6 @@ Util method to get the properties of a class in the stylesheet.
 
 Example:
 
-<pre>
-
 <style>
 
 .change_opacity
@@ -19,8 +17,6 @@ Example:
   margin-top:"10px";
   margin-left:"10px";
 }
-
-</pre>
 
 </style>
 
