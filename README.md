@@ -66,3 +66,10 @@ TweenLite.to($(".item")
 $(".item").css( tsung(".item .after")) //set the properties before animating
 TweenLite.to($(".item"),{css:tsung(".item .after")}) //animate getting the properties of the class 'after'
 </pre>
+
+Tested in the following browsers
+---------------
+IE7+
+Chrome 24+
+Firefox 14+
+Firefox 5+
