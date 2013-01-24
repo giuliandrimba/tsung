@@ -21,7 +21,7 @@ If you have in your stylesheet something like:
 }
 </pre>
 
-You couldn get the class properties using the "tsung" function.
+You could get the class properties using the "tsung" function.
 
 <pre>
 tsung("change_opacity"); //return {"opacity":"0"}
@@ -32,7 +32,7 @@ Use case:
 --------
 This could be useful for animations using JS libraries like jQuery and TweenLite.
 
-This way, you can separate all the settings of the animations in the CSS file, eg:
+_This way, you can separate all the settings of the animations in the CSS file, eg:_
 
 You can set the states of the animations in the CSS:
 
