@@ -25,7 +25,7 @@ You could get the class properties using the "tsung" function.
 
 <pre>
 tsung("change_opacity"); //return {"opacity":"0"}
-tsung(".header .margin"); //return {"margin-top":"10px", "margin-left":"10px"}
+tsung(".header .margin"); //return {margin-top:"10px", margin-left:"10px"}
 </pre>
 
 Use case:
