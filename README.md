@@ -56,13 +56,13 @@ And in your JS code, you can get these properties and pass them as parameters to
 
 (using jQuery animate)
 <pre>
-$(".item").css( tsung(".item .after")) //set the properties before animating
+$(".item").css( tsung(".item .before")) //set the properties before animating
 $(".item").animate( tsung(".item .after"), 500 ) //animate getting the properties of the class 'after'
 </pre>
 
 (using TweenLite)
 <pre>
-$(".item").css( tsung(".item .after")) //set the properties before animating
+$(".item").css( tsung(".item .before")) //set the properties before animating
 TweenLite.to($(".item"), 0.5,{css:tsung(".item .after")}) //animate getting the properties of the class 'after'
 </pre>
 
