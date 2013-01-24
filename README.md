@@ -32,7 +32,7 @@ Use case:
 --------
 This could be useful for animations using JS libraries like jQuery and TweenLite.
 
-_This way, you can separate all the settings of the animations in the CSS file, eg:_
+__This way, you can separate all the settings of the animations in the CSS file, eg:__
 
 You can set the states of the animations in the CSS:
 
