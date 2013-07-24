@@ -41,7 +41,7 @@
 		{
 		  var item = rules[i] || rules.item(i);
 
-		  if(item.selectorText.toLowerCase() === className.toLowerCase())
+		  if(item.selectorText && item.selectorText.toLowerCase() === className.toLowerCase())
 		  {
 		    return parseStyle(item);
 		  }
