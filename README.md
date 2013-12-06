@@ -75,3 +75,7 @@ Tested in the following browsers
 * Firefox 14+
 * Safari 5+
 * Chrome 24+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/giuliandrimba/tsung/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
